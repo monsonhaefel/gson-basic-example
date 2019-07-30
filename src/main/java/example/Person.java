@@ -1,17 +1,12 @@
 package example;
 
 public class Person {
-
-	// FIELDS
-	int id;
-	String first_name;
-	String last_name;
-	String email;
-	String gender;
-	String ip_address;
-	String mailing_address;
-
-	public String toString() {
-		return first_name + " " + last_name + ": email=" + email + ", gender=" + gender + " ip_address=" + ip_address;
-	}
+	// BINDING FIELDS
+	private int id;
+	private String first_name;
+	private String last_name;
+	private String email;
+	private String gender;
+	private String ip_address;
+	private String mailing_address;
 }

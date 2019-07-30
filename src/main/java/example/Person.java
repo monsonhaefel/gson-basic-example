@@ -9,6 +9,7 @@ public class Person {
 	String email;
 	String gender;
 	String ip_address;
+	String mailing_address;
 
 	public String toString() {
 		return first_name + " " + last_name + ": email=" + email + ", gender=" + gender + " ip_address=" + ip_address;
